@@ -5181,6 +5181,13 @@ public abstract class Context {
      * @see android.hardware.display.DcDimmingManager
      */
     public static final String DC_DIM_SERVICE = "dc_dim_service";
+     * {@link android.os.PocketManager} for accessing and listening to device pocket state.
+     *
+     * @hide
+     * @see #getSystemService
+     * @see android.os.PocketManager
+     */
+    public static final String POCKET_SERVICE = "pocket";
 
     /**
      * Determine whether the given permission is allowed for a particular
