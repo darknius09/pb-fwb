@@ -5181,6 +5181,9 @@ public abstract class Context {
      * @see android.hardware.display.DcDimmingManager
      */
     public static final String DC_DIM_SERVICE = "dc_dim_service";
+      
+    /**
+     * Use with {@link #getSystemService} to retrieve a
      * {@link android.os.PocketManager} for accessing and listening to device pocket state.
      *
      * @hide
